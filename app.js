@@ -24,10 +24,10 @@ function PageTransition(){
         console.log(id)
         if(id) {
             //remove selected from the other btns
-            sectBtns.forEach((btn) => {
-                btn.classList.remove('active1')
-            })
-            e.target.classList.add('active1')
+            // sectBtns.forEach((btn) => {
+            //     btn.classList.remove('active1')
+            // })
+            // e.target.classList.add('active1')
 
             //hide other sections
             sections.forEach((section) =>{
