@@ -25,9 +25,9 @@ function PageTransition(){
         if(id) {
             //remove selected from the other btns
             sectBtns.forEach((btn) => {
-                btn.classList.remove('active')
+                btn.classList.remove('active1')
             })
-            e.target.classList.add('active')
+            e.target.classList.add('active1')
 
             //hide other sections
             sections.forEach((section) =>{
