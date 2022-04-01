@@ -388,10 +388,12 @@ section {
 }
 
 .about-container .left-about {
+  text-align: center;
   padding-right: 5rem;
 }
 
 .about-container .left-about p {
+  text-align: justify;
   line-height: 2rem;
   padding: 1rem;
   color: var(--color-grey-1);
@@ -893,8 +895,9 @@ section {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-item-align: start;
-      align-self: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 .main-btn {

@@ -286,14 +286,16 @@ section{
         }
     }
     .left-about{
+        text-align: center;
         padding-right: 5rem;
         p{
-            
+            text-align: justify;
             line-height: 2rem;
             padding: 1rem;
             color: var(--color-grey-1);
         }
         h4{
+            
             font-size: 2rem;
             text-transform: uppercase;
         }
@@ -652,7 +654,7 @@ section{
 /*Independed components*/
 .btn-con{
     display: flex;
-    align-self: flex-start;
+    justify-content: center;
 }
 .main-btn{
     border-radius: 30px;
