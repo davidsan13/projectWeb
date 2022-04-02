@@ -61,8 +61,13 @@
     .about-stats{
         .progress-bars{
             grid-template-columns: 1fr;
-            
+
         }
+    }
+
+    .blogs{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
     }
     
     .section{
