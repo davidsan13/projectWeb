@@ -37,6 +37,38 @@
         width: 90%;
     }
 
+    .about-container{
+        grid-template-columns: 1fr;
+        .right-about{
+            grid-template-columns: 1fr;
+            padding-top: 2.5rem;
+
+        }
+        .left-about{
+            padding-right: 0;
+            p{
+                padding-left: 0;
+            }
+        }
+
+    }
+
+    .timeline{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
+
+    .about-stats{
+        .progress-bars{
+            grid-template-columns: 1fr;
+            
+        }
+    }
+    
+    .section{
+        padding: 2rem 2.5rem !important;
+    }
+
     .controls{
         top: auto;
         bottom: 0;
