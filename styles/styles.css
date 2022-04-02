@@ -1041,6 +1041,11 @@ section {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
+  .portfolios {
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+    padding-bottom: 6rem;
+  }
   .blogs {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;

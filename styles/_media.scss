@@ -64,7 +64,11 @@
 
         }
     }
-
+    
+    .portfolios{
+        grid-template-columns: 1fr;
+        padding-bottom: 6rem;
+    }
     .blogs{
         grid-template-columns: 1fr;
         padding-bottom: 6rem;
