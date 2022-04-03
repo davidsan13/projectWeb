@@ -170,7 +170,7 @@ section {
 .controls .control {
   padding: 1rem;
   cursor: pointer;
-  background-color: var(--color-grey-4);
+  background-color: var(--color-grey-5);
   width: 55px;
   height: 55px;
   border-radius: 50%;
@@ -200,7 +200,7 @@ section {
   width: 70px;
   height: 70px;
   border-radius: 50%;
-  background-color: var(--color-grey-4);
+  background-color: var(--color-grey-5);
   cursor: pointer;
   position: fixed;
   display: -webkit-box;
@@ -792,6 +792,8 @@ section {
           align-items: center;
   color: var(--color-white);
   background-color: var(--color-grey-5);
+  -webkit-box-shadow: var(--box-shadow-1);
+          box-shadow: var(--box-shadow-1);
   cursor: pointer;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
@@ -838,6 +840,8 @@ section {
   outline: none;
   border: none;
   background-color: var(--color-grey-5);
+  -webkit-box-shadow: var(--box-shadow-1);
+          box-shadow: var(--box-shadow-1);
   width: 100%;
   color: var(--color-white);
   resize: none;
@@ -860,6 +864,11 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.contact-content-con .submit-btn a {
+  -webkit-box-shadow: var(--box-shadow-1);
+          box-shadow: var(--box-shadow-1);
 }
 
 /*Independed components*/
